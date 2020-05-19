@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LruCache", "src\LruCache\LruCache.csproj", "{AA016B0C-C47A-4D33-B784-732BA7567D0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B49D643E-2A59-4CA2-9903-1B82128D742A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LruCacheTests", "tests\LruCacheTests\LruCacheTests.csproj", "{7FAC5601-0DCD-46D4-98BF-F5705AA4EAEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA016B0C-C47A-4D33-B784-732BA7567D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA016B0C-C47A-4D33-B784-732BA7567D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA016B0C-C47A-4D33-B784-732BA7567D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA016B0C-C47A-4D33-B784-732BA7567D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAC5601-0DCD-46D4-98BF-F5705AA4EAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAC5601-0DCD-46D4-98BF-F5705AA4EAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAC5601-0DCD-46D4-98BF-F5705AA4EAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAC5601-0DCD-46D4-98BF-F5705AA4EAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FAC5601-0DCD-46D4-98BF-F5705AA4EAEC} = {B49D643E-2A59-4CA2-9903-1B82128D742A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {738E3023-7E20-40B4-8996-8B35774A3C9A}
+	EndGlobalSection
+EndGlobal
